@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NTFoundationFramework\NTAllocator.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTArray.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTBackgroundTask.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTCommandQueue.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTData.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTDictionary.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTFile.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTLinkedList.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTMutableArray.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTMutableDictionary.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTNumber.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTObject.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTQueue.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTString.cpp" />
+    <ClCompile Include="..\NTFoundationFramework\NTTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NTFoundationFramework\NTAllocator.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTArray.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTArrayInternal.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTBackgroundTask.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTCommandQueue.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTData.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTDictionary.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTDictionaryInternal.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTFile.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTFoundationFramework.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTInputStream.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTLibraryDefines.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTLinkedList.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTMutableArray.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTMutableDictionary.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTNumber.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTObject.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTOutputStream.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTQueue.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTStream.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTString.h" />
+    <ClInclude Include="..\NTFoundationFramework\NTTimer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49982CAF-7061-47CB-912D-C884E3FB7BC7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NTFoundationFramework</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\NTFrameworks\lib\windows</OutDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\NTFrameworks\lib\windows</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\NTFoundationFramwork;..\NTFoundationFramework\NTFoundationFramework\GarbageCollection;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\NTFrameworks\lib\windows\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>gc-lib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\NTFoundationFramework\NTFoundationFramework\lib\Windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>CD ..\NTFoundationFramework
+
+COPY NTAllocator.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTObject.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTArray.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTMutableArray.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTDictionary.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTMutableDictionary.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTData.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTString.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTBackgroundTask.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTQueue.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTCommandQueue.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTFoundationFramework.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTTimer.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTStream.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTInputStream.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTOutputStream.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTFile.h ..\..\NTFrameworks\NTFoundationFramework
+COPY NTNumber.h ..\..\NTFrameworks\NTFoundationFramework
+COPY NTLibraryDefines.h ..\..\NTFrameworks\NTFoundationFramework</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>RMDIR /S /Q ..\..\NTFrameworks\NTFoundationFramework
+MKDIR ..\..\NTFrameworks\NTFoundationFramework</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\NTFoundationFramwork;..\NTFoundationFramework\NTFoundationFramework\GarbageCollection;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\NTFrameworks\lib\windows\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>gc-lib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\NTFoundationFramework\NTFoundationFramework\lib\Windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>CD ..\NTFoundationFramework
+
+COPY NTAllocator.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTObject.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTArray.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTMutableArray.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTDictionary.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTMutableDictionary.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTData.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTString.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTBackgroundTask.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTQueue.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTCommandQueue.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTFoundationFramework.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTTimer.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTStream.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTInputStream.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTOutputStream.h ..\..\NTFrameworks\NTFoundationFramework
+
+COPY NTFile.h ..\..\NTFrameworks\NTFoundationFramework
+COPY NTNumber.h ..\..\NTFrameworks\NTFoundationFramework
+COPY NTLibraryDefines.h ..\..\NTFrameworks\NTFoundationFramework</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>RMDIR /S /Q ..\..\NTFrameworks\NTFoundationFramework
+MKDIR ..\..\NTFrameworks\NTFoundationFramework</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

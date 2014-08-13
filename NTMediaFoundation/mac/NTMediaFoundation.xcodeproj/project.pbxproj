@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB4BEF11890E6FC009EBAB7 /* NTFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEB91890E315009EBAB7 /* NTFilter.cpp */; };
+		1AB4BEF21890E6FF009EBAB7 /* NTMediaBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEBC1890E315009EBAB7 /* NTMediaBuffer.cpp */; };
+		1AB4BEF51890E706009EBAB7 /* NTMediaSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEC21890E315009EBAB7 /* NTMediaSample.cpp */; };
+		1AB4BEFD1890EC95009EBAB7 /* NTFilterGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEFB1890EC95009EBAB7 /* NTFilterGraph.cpp */; };
+		1AB4BEFE1890EC95009EBAB7 /* NTFilterGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB4BEFC1890EC95009EBAB7 /* NTFilterGraph.h */; };
+		9CC5E1B718D2D39400DB0C80 /* NTWaveFileInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC5E1B618D2D39400DB0C80 /* NTWaveFileInputStream.h */; };
+		9CC5E1B918D2DCFA00DB0C80 /* NTWaveFileInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5E1B818D2DCFA00DB0C80 /* NTWaveFileInputStream.cpp */; };
+		9CC5E1BD18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC5E1BB18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.h */; };
+		9CC5E1BE18D309C100DB0C80 /* NTVideoYUVFIleInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5E1BA18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.cpp */; };
+		9CC5E1C218D3232A00DB0C80 /* NTWaveFileOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC5E1C018D3232A00DB0C80 /* NTWaveFileOutputStream.h */; };
+		9CC5E1C318D3277300DB0C80 /* NTWaveFileOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5E1BF18D3232A00DB0C80 /* NTWaveFileOutputStream.cpp */; };
+		9CDD902818A9F64F004C80F9 /* NTMediaControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD902618A9F64F004C80F9 /* NTMediaControl.cpp */; };
+		9CDD902918A9F64F004C80F9 /* NTMediaControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDD902718A9F64F004C80F9 /* NTMediaControl.h */; };
+		9CDD902C18A9F65D004C80F9 /* NTSourceFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD902A18A9F65D004C80F9 /* NTSourceFilter.cpp */; };
+		9CDD902D18A9F65D004C80F9 /* NTSourceFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDD902B18A9F65D004C80F9 /* NTSourceFilter.h */; };
+		9CDD903018A9F667004C80F9 /* NTRenderFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD902E18A9F667004C80F9 /* NTRenderFilter.cpp */; };
+		9CDD903118A9F667004C80F9 /* NTRenderFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDD902F18A9F667004C80F9 /* NTRenderFilter.h */; };
+		9CDD903418A9F677004C80F9 /* NTTransformFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD903218A9F677004C80F9 /* NTTransformFilter.cpp */; };
+		9CDD903518A9F677004C80F9 /* NTTransformFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDD903318A9F677004C80F9 /* NTTransformFilter.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A545E44188FA166007DBA59 /* libNTMediaFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTMediaFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB4BEB91890E315009EBAB7 /* NTFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTFilter.cpp; sourceTree = "<group>"; };
+		1AB4BEBA1890E315009EBAB7 /* NTFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTFilter.h; sourceTree = "<group>"; };
+		1AB4BEBB1890E315009EBAB7 /* NTFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTFormatDescription.h; sourceTree = "<group>"; };
+		1AB4BEBC1890E315009EBAB7 /* NTMediaBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTMediaBuffer.cpp; sourceTree = "<group>"; };
+		1AB4BEBD1890E315009EBAB7 /* NTMediaBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMediaBuffer.h; sourceTree = "<group>"; };
+		1AB4BEC21890E315009EBAB7 /* NTMediaSample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTMediaSample.cpp; sourceTree = "<group>"; };
+		1AB4BEC31890E315009EBAB7 /* NTMediaSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMediaSample.h; sourceTree = "<group>"; };
+		1AB4BEFB1890EC95009EBAB7 /* NTFilterGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTFilterGraph.cpp; sourceTree = "<group>"; };
+		1AB4BEFC1890EC95009EBAB7 /* NTFilterGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFilterGraph.h; sourceTree = "<group>"; };
+		9CC5E1B618D2D39400DB0C80 /* NTWaveFileInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTWaveFileInputStream.h; sourceTree = "<group>"; };
+		9CC5E1B818D2DCFA00DB0C80 /* NTWaveFileInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTWaveFileInputStream.cpp; sourceTree = "<group>"; };
+		9CC5E1BA18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTVideoYUVFIleInputStream.cpp; sourceTree = "<group>"; };
+		9CC5E1BB18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTVideoYUVFIleInputStream.h; sourceTree = "<group>"; };
+		9CC5E1BF18D3232A00DB0C80 /* NTWaveFileOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTWaveFileOutputStream.cpp; sourceTree = "<group>"; };
+		9CC5E1C018D3232A00DB0C80 /* NTWaveFileOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTWaveFileOutputStream.h; sourceTree = "<group>"; };
+		9CDD902618A9F64F004C80F9 /* NTMediaControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTMediaControl.cpp; sourceTree = "<group>"; };
+		9CDD902718A9F64F004C80F9 /* NTMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTMediaControl.h; sourceTree = "<group>"; };
+		9CDD902A18A9F65D004C80F9 /* NTSourceFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTSourceFilter.cpp; sourceTree = "<group>"; };
+		9CDD902B18A9F65D004C80F9 /* NTSourceFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSourceFilter.h; sourceTree = "<group>"; };
+		9CDD902E18A9F667004C80F9 /* NTRenderFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTRenderFilter.cpp; sourceTree = "<group>"; };
+		9CDD902F18A9F667004C80F9 /* NTRenderFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRenderFilter.h; sourceTree = "<group>"; };
+		9CDD903218A9F677004C80F9 /* NTTransformFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTTransformFilter.cpp; sourceTree = "<group>"; };
+		9CDD903318A9F677004C80F9 /* NTTransformFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTransformFilter.h; sourceTree = "<group>"; };
+		9CDD903718AA35A8004C80F9 /* NTMediaFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMediaFoundation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A545E41188FA166007DBA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A545E3B188FA166007DBA59 = {
+			isa = PBXGroup;
+			children = (
+				1AB4BEB81890E315009EBAB7 /* Source */,
+				1A545E45188FA166007DBA59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A545E45188FA166007DBA59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A545E44188FA166007DBA59 /* libNTMediaFoundation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB4BEB81890E315009EBAB7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1AB4BEB91890E315009EBAB7 /* NTFilter.cpp */,
+				1AB4BEBA1890E315009EBAB7 /* NTFilter.h */,
+				1AB4BEBB1890E315009EBAB7 /* NTFormatDescription.h */,
+				1AB4BEBC1890E315009EBAB7 /* NTMediaBuffer.cpp */,
+				1AB4BEBD1890E315009EBAB7 /* NTMediaBuffer.h */,
+				1AB4BEC21890E315009EBAB7 /* NTMediaSample.cpp */,
+				1AB4BEC31890E315009EBAB7 /* NTMediaSample.h */,
+				1AB4BEFB1890EC95009EBAB7 /* NTFilterGraph.cpp */,
+				1AB4BEFC1890EC95009EBAB7 /* NTFilterGraph.h */,
+				9CDD902618A9F64F004C80F9 /* NTMediaControl.cpp */,
+				9CDD902718A9F64F004C80F9 /* NTMediaControl.h */,
+				9CDD902A18A9F65D004C80F9 /* NTSourceFilter.cpp */,
+				9CDD902B18A9F65D004C80F9 /* NTSourceFilter.h */,
+				9CDD902E18A9F667004C80F9 /* NTRenderFilter.cpp */,
+				9CDD902F18A9F667004C80F9 /* NTRenderFilter.h */,
+				9CDD903218A9F677004C80F9 /* NTTransformFilter.cpp */,
+				9CDD903318A9F677004C80F9 /* NTTransformFilter.h */,
+				9CDD903718AA35A8004C80F9 /* NTMediaFoundation.h */,
+				9CC5E1B618D2D39400DB0C80 /* NTWaveFileInputStream.h */,
+				9CC5E1B818D2DCFA00DB0C80 /* NTWaveFileInputStream.cpp */,
+				9CC5E1BA18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.cpp */,
+				9CC5E1BB18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.h */,
+				9CC5E1BF18D3232A00DB0C80 /* NTWaveFileOutputStream.cpp */,
+				9CC5E1C018D3232A00DB0C80 /* NTWaveFileOutputStream.h */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A545E42188FA166007DBA59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC5E1C218D3232A00DB0C80 /* NTWaveFileOutputStream.h in Headers */,
+				9CDD902918A9F64F004C80F9 /* NTMediaControl.h in Headers */,
+				1AB4BEFE1890EC95009EBAB7 /* NTFilterGraph.h in Headers */,
+				9CC5E1B718D2D39400DB0C80 /* NTWaveFileInputStream.h in Headers */,
+				9CDD903518A9F677004C80F9 /* NTTransformFilter.h in Headers */,
+				9CDD903118A9F667004C80F9 /* NTRenderFilter.h in Headers */,
+				9CDD902D18A9F65D004C80F9 /* NTSourceFilter.h in Headers */,
+				9CC5E1BD18D2E60500DB0C80 /* NTVideoYUVFIleInputStream.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A545E43188FA166007DBA59 /* NTMediaFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A545E48188FA166007DBA59 /* Build configuration list for PBXNativeTarget "NTMediaFoundation" */;
+			buildPhases = (
+				1A545E40188FA166007DBA59 /* Sources */,
+				1A545E41188FA166007DBA59 /* Frameworks */,
+				1A545E42188FA166007DBA59 /* Headers */,
+				9CDD903618AA352D004C80F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTMediaFoundation;
+			productName = NTMediaFoundation;
+			productReference = 1A545E44188FA166007DBA59 /* libNTMediaFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A545E3C188FA166007DBA59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Robosoft;
+			};
+			buildConfigurationList = 1A545E3F188FA166007DBA59 /* Build configuration list for PBXProject "NTMediaFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A545E3B188FA166007DBA59;
+			productRefGroup = 1A545E45188FA166007DBA59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A545E43188FA166007DBA59 /* NTMediaFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CDD903618AA352D004C80F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -Rf ../NTMediaFoundation/*.h\n\ncd ../Source\ncp -f NTMediaFoundation.h ../NTMediaFoundation\ncp -f NTFormatDescription.h ../NTMediaFoundation\ncp -f NTMediaBuffer.h ../NTMediaFoundation\ncp -f NTMediaSample.h ../NTMediaFoundation\ncp -f NTFilter.h ../NTMediaFoundation\ncp -f NTSourceFilter.h ../NTMediaFoundation\ncp -f NTRenderFilter.h ../NTMediaFoundation\ncp -f NTTransformFilter.h ../NTMediaFoundation\ncp -f NTMediaControl.h ../NTMediaFoundation\ncp -f NTFilterGraph.h ../NTMediaFoundation\ncp -f NTWaveFileInputStream.h ../NTMediaFoundation\ncp -f NTVideoYUVFileInputStream.h ../NTMediaFoundation";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A545E40188FA166007DBA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB4BEF21890E6FF009EBAB7 /* NTMediaBuffer.cpp in Sources */,
+				1AB4BEF11890E6FC009EBAB7 /* NTFilter.cpp in Sources */,
+				9CDD903018A9F667004C80F9 /* NTRenderFilter.cpp in Sources */,
+				1AB4BEF51890E706009EBAB7 /* NTMediaSample.cpp in Sources */,
+				9CC5E1C318D3277300DB0C80 /* NTWaveFileOutputStream.cpp in Sources */,
+				9CDD903418A9F677004C80F9 /* NTTransformFilter.cpp in Sources */,
+				9CC5E1B918D2DCFA00DB0C80 /* NTWaveFileInputStream.cpp in Sources */,
+				9CDD902818A9F64F004C80F9 /* NTMediaControl.cpp in Sources */,
+				9CDD902C18A9F65D004C80F9 /* NTSourceFilter.cpp in Sources */,
+				1AB4BEFD1890EC95009EBAB7 /* NTFilterGraph.cpp in Sources */,
+				9CC5E1BE18D309C100DB0C80 /* NTVideoYUVFIleInputStream.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A545E46188FA166007DBA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A545E47188FA166007DBA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A545E49188FA166007DBA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CONFIGURATION_BUILD_DIR = "../$(PROJECT_NAME)/lib/mac";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../../NTFoundationFramework/,
+				);
+				LIBRARY_SEARCH_PATHS = ../../NTFoundationFramework/NTFoundationFramework/lib/mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1A545E4A188FA166007DBA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CONFIGURATION_BUILD_DIR = "../$(PROJECT_NAME)/lib/mac";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../../NTFoundationFramework/,
+				);
+				LIBRARY_SEARCH_PATHS = ../../NTFoundationFramework/NTFoundationFramework/lib/mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A545E3F188FA166007DBA59 /* Build configuration list for PBXProject "NTMediaFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A545E46188FA166007DBA59 /* Debug */,
+				1A545E47188FA166007DBA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A545E48188FA166007DBA59 /* Build configuration list for PBXNativeTarget "NTMediaFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A545E49188FA166007DBA59 /* Debug */,
+				1A545E4A188FA166007DBA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A545E3C188FA166007DBA59 /* Project object */;
+}

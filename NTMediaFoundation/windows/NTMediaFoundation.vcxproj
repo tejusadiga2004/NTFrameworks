@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NTMediaFoundation\NTFilter.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTFilterGraph.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTFormatDescription.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTMediaBuffer.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTMediaControl.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTMediaFoundation.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTMediaSample.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTRenderFilter.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTSourceFilter.h" />
+    <ClInclude Include="..\NTMediaFoundation\NTTransformFilter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NTMediaFoundation\NTFilter.cpp" />
+    <ClCompile Include="..\NTMediaFoundation\NTFilterGraph.cpp" />
+    <ClCompile Include="..\NTMediaFoundation\NTMediaBuffer.cpp" />
+    <ClCompile Include="..\NTMediaFoundation\NTMediaControl.cpp" />
+    <ClCompile Include="..\NTMediaFoundation\NTMediaSample.cpp" />
+    <ClCompile Include="..\NTMediaFoundation\NTRenderFilter.cpp" />
+    <ClCompile Include="..\NTMediaFoundation\NTSourceFilter.cpp" />
+    <ClCompile Include="..\NTMediaFoundation\NTTransformFilter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D5CD4E17-A460-44D1-AD91-489FFD10608C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NTMediaFoundation</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\..\..\NTFrameworks\lib\windows</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\..\..\NTFrameworks\lib\windows</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\NTFrameworks;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>NTFoundationFramework.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\NTFrameworks\lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>NTFoundationFramework.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\NTFrameworks\lib\windows</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>MKDIR ..\..\NTFrameworks\NTMediaFoundation
+CD ../NTMediaFoundation
+COPY NTFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTFilter.h 
+COPY NTFilterGraph.h ..\..\NTFrameworks\NTMediaFoundation\NTFilterGraph.h 
+COPY NTFormatDescription.h ..\..\NTFrameworks\NTMediaFoundation\NTFormatDescription.h 
+COPY NTMediaBuffer.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaBuffer.h 
+COPY NTMediaControl.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaControl.h 
+COPY NTMediaFoundation.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaFoundation.h 
+COPY NTMediaSample.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaSample.h 
+COPY NTRenderFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTRenderFilter.h 
+COPY NTSourceFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTSourceFilter.h 
+COPY NTTransformFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTTransformFilter.h 
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>RMDIR /S /Q ..\..\NTFrameworks\NTMediaFoundation
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\NTFrameworks;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>NTFoundationFramework.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\NTFrameworks\lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>NTFoundationFramework.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\NTFrameworks\lib\windows</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>MKDIR ..\..\NTFrameworks\NTMediaFoundation
+CD ../NTMediaFoundation
+COPY NTFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTFilter.h 
+COPY NTFilterGraph.h ..\..\NTFrameworks\NTMediaFoundation\NTFilterGraph.h 
+COPY NTFormatDescription.h ..\..\NTFrameworks\NTMediaFoundation\NTFormatDescription.h 
+COPY NTMediaBuffer.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaBuffer.h 
+COPY NTMediaControl.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaControl.h 
+COPY NTMediaFoundation.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaFoundation.h 
+COPY NTMediaSample.h ..\..\NTFrameworks\NTMediaFoundation\NTMediaSample.h 
+COPY NTRenderFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTRenderFilter.h 
+COPY NTSourceFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTSourceFilter.h 
+COPY NTTransformFilter.h ..\..\NTFrameworks\NTMediaFoundation\NTTransformFilter.h 
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>RMDIR /S /Q ..\..\NTFrameworks\NTMediaFoundation
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
