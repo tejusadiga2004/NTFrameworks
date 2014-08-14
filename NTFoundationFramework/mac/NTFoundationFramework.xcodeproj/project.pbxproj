@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AC39A16199CAA9600BFEE0F /* NTAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399ED199CA67400BFEE0F /* NTAllocator.cpp */; };
-		1AC39A17199CAA9900BFEE0F /* NTArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399EF199CA67400BFEE0F /* NTArray.cpp */; };
-		1AC39A18199CAA9B00BFEE0F /* NTBackgroundTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F2199CA67400BFEE0F /* NTBackgroundTask.cpp */; };
-		1AC39A19199CAA9D00BFEE0F /* NTCommandQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F4199CA67400BFEE0F /* NTCommandQueue.cpp */; };
-		1AC39A1A199CAAA000BFEE0F /* NTData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F6199CA67400BFEE0F /* NTData.cpp */; };
-		1AC39A1B199CAAA100BFEE0F /* NTDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F8199CA67400BFEE0F /* NTDictionary.cpp */; };
-		1AC39A1C199CAAA400BFEE0F /* NTFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399FB199CA67400BFEE0F /* NTFile.cpp */; };
-		1AC39A1D199CAAA800BFEE0F /* NTLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A03199CA67400BFEE0F /* NTLinkedList.cpp */; };
-		1AC39A1E199CAAAB00BFEE0F /* NTMutableArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A05199CA67400BFEE0F /* NTMutableArray.cpp */; };
-		1AC39A1F199CAAAD00BFEE0F /* NTMutableDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A07199CA67400BFEE0F /* NTMutableDictionary.cpp */; };
-		1AC39A20199CAAAF00BFEE0F /* NTNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A09199CA67400BFEE0F /* NTNumber.cpp */; };
-		1AC39A21199CAAB200BFEE0F /* NTObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A0B199CA67400BFEE0F /* NTObject.cpp */; };
-		1AC39A22199CAAB500BFEE0F /* NTQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A0F199CA67400BFEE0F /* NTQueue.cpp */; };
-		1AC39A23199CAAB700BFEE0F /* NTString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A12199CA67400BFEE0F /* NTString.cpp */; };
-		1AC39A24199CAABA00BFEE0F /* NTTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A14199CA67400BFEE0F /* NTTimer.cpp */; };
+		1AC39A2D199CAE4F00BFEE0F /* NTAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399ED199CA67400BFEE0F /* NTAllocator.cpp */; };
+		1AC39A2E199CAE6400BFEE0F /* NTArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399EF199CA67400BFEE0F /* NTArray.cpp */; };
+		1AC39A2F199CAE6400BFEE0F /* NTBackgroundTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F2199CA67400BFEE0F /* NTBackgroundTask.cpp */; };
+		1AC39A30199CAE6400BFEE0F /* NTCommandQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F4199CA67400BFEE0F /* NTCommandQueue.cpp */; };
+		1AC39A31199CAE6400BFEE0F /* NTData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F6199CA67400BFEE0F /* NTData.cpp */; };
+		1AC39A32199CAE6400BFEE0F /* NTDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F8199CA67400BFEE0F /* NTDictionary.cpp */; };
+		1AC39A33199CAE6400BFEE0F /* NTFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399FB199CA67400BFEE0F /* NTFile.cpp */; };
+		1AC39A34199CAE6400BFEE0F /* NTLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A03199CA67400BFEE0F /* NTLinkedList.cpp */; };
+		1AC39A35199CAE6400BFEE0F /* NTMutableArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A05199CA67400BFEE0F /* NTMutableArray.cpp */; };
+		1AC39A36199CAE6400BFEE0F /* NTMutableDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A07199CA67400BFEE0F /* NTMutableDictionary.cpp */; };
+		1AC39A37199CAE6400BFEE0F /* NTNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A09199CA67400BFEE0F /* NTNumber.cpp */; };
+		1AC39A38199CAE6400BFEE0F /* NTObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A0B199CA67400BFEE0F /* NTObject.cpp */; };
+		1AC39A39199CAE6400BFEE0F /* NTQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A0F199CA67400BFEE0F /* NTQueue.cpp */; };
+		1AC39A3A199CAE6400BFEE0F /* NTString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A12199CA67400BFEE0F /* NTString.cpp */; };
+		1AC39A3B199CAE6400BFEE0F /* NTTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A14199CA67400BFEE0F /* NTTimer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,11 +62,11 @@
 		1AC39A13199CA67400BFEE0F /* NTString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTString.h; sourceTree = "<group>"; };
 		1AC39A14199CA67400BFEE0F /* NTTimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTTimer.cpp; sourceTree = "<group>"; };
 		1AC39A15199CA67400BFEE0F /* NTTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTTimer.h; sourceTree = "<group>"; };
-		1AF3FF451887FE5100343D40 /* libNTFoundationFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTFoundationFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC39A29199CAE4500BFEE0F /* libNTFoundationFramework.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libNTFoundationFramework.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1AF3FF421887FE5100343D40 /* Frameworks */ = {
+		1AC39A26199CAE4500BFEE0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,7 +132,7 @@
 		1AF3FF461887FE5100343D40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AF3FF451887FE5100343D40 /* libNTFoundationFramework.a */,
+				1AC39A29199CAE4500BFEE0F /* libNTFoundationFramework.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1AF3FF431887FE5100343D40 /* Headers */ = {
+		1AC39A27199CAE4500BFEE0F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -150,14 +150,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1AF3FF441887FE5100343D40 /* NTFoundationFramework */ = {
+		1AC39A28199CAE4500BFEE0F /* NTFoundationFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AF3FF491887FE5100343D40 /* Build configuration list for PBXNativeTarget "NTFoundationFramework" */;
+			buildConfigurationList = 1AC39A2A199CAE4500BFEE0F /* Build configuration list for PBXNativeTarget "NTFoundationFramework" */;
 			buildPhases = (
-				1AF3FF411887FE5100343D40 /* Sources */,
-				1AF3FF421887FE5100343D40 /* Frameworks */,
-				1AF3FF431887FE5100343D40 /* Headers */,
-				1A545E3A188F9967007DBA59 /* ShellScript */,
+				1AC39A25199CAE4500BFEE0F /* Sources */,
+				1AC39A26199CAE4500BFEE0F /* Frameworks */,
+				1AC39A27199CAE4500BFEE0F /* Headers */,
+				1AC39A3C199CAE8400BFEE0F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -165,8 +165,8 @@
 			);
 			name = NTFoundationFramework;
 			productName = NTFoundationFramework;
-			productReference = 1AF3FF451887FE5100343D40 /* libNTFoundationFramework.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 1AC39A29199CAE4500BFEE0F /* libNTFoundationFramework.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
@@ -189,13 +189,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1AF3FF441887FE5100343D40 /* NTFoundationFramework */,
+				1AC39A28199CAE4500BFEE0F /* NTFoundationFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A545E3A188F9967007DBA59 /* ShellScript */ = {
+		1AC39A3C199CAE8400BFEE0F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,31 +211,55 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AF3FF411887FE5100343D40 /* Sources */ = {
+		1AC39A25199CAE4500BFEE0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC39A1F199CAAAD00BFEE0F /* NTMutableDictionary.cpp in Sources */,
-				1AC39A22199CAAB500BFEE0F /* NTQueue.cpp in Sources */,
-				1AC39A16199CAA9600BFEE0F /* NTAllocator.cpp in Sources */,
-				1AC39A1B199CAAA100BFEE0F /* NTDictionary.cpp in Sources */,
-				1AC39A19199CAA9D00BFEE0F /* NTCommandQueue.cpp in Sources */,
-				1AC39A17199CAA9900BFEE0F /* NTArray.cpp in Sources */,
-				1AC39A20199CAAAF00BFEE0F /* NTNumber.cpp in Sources */,
-				1AC39A18199CAA9B00BFEE0F /* NTBackgroundTask.cpp in Sources */,
-				1AC39A1E199CAAAB00BFEE0F /* NTMutableArray.cpp in Sources */,
-				1AC39A1C199CAAA400BFEE0F /* NTFile.cpp in Sources */,
-				1AC39A23199CAAB700BFEE0F /* NTString.cpp in Sources */,
-				1AC39A1D199CAAA800BFEE0F /* NTLinkedList.cpp in Sources */,
-				1AC39A21199CAAB200BFEE0F /* NTObject.cpp in Sources */,
-				1AC39A24199CAABA00BFEE0F /* NTTimer.cpp in Sources */,
-				1AC39A1A199CAAA000BFEE0F /* NTData.cpp in Sources */,
+				1AC39A36199CAE6400BFEE0F /* NTMutableDictionary.cpp in Sources */,
+				1AC39A39199CAE6400BFEE0F /* NTQueue.cpp in Sources */,
+				1AC39A2D199CAE4F00BFEE0F /* NTAllocator.cpp in Sources */,
+				1AC39A32199CAE6400BFEE0F /* NTDictionary.cpp in Sources */,
+				1AC39A30199CAE6400BFEE0F /* NTCommandQueue.cpp in Sources */,
+				1AC39A2E199CAE6400BFEE0F /* NTArray.cpp in Sources */,
+				1AC39A37199CAE6400BFEE0F /* NTNumber.cpp in Sources */,
+				1AC39A2F199CAE6400BFEE0F /* NTBackgroundTask.cpp in Sources */,
+				1AC39A35199CAE6400BFEE0F /* NTMutableArray.cpp in Sources */,
+				1AC39A33199CAE6400BFEE0F /* NTFile.cpp in Sources */,
+				1AC39A3A199CAE6400BFEE0F /* NTString.cpp in Sources */,
+				1AC39A34199CAE6400BFEE0F /* NTLinkedList.cpp in Sources */,
+				1AC39A38199CAE6400BFEE0F /* NTObject.cpp in Sources */,
+				1AC39A3B199CAE6400BFEE0F /* NTTimer.cpp in Sources */,
+				1AC39A31199CAE6400BFEE0F /* NTData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1AC39A2B199CAE4500BFEE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CONFIGURATION_BUILD_DIR = ../../NTFrameworks/lib/mac;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AC39A2C199CAE4500BFEE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CONFIGURATION_BUILD_DIR = ../../NTFrameworks/lib/mac;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		1AF3FF471887FE5100343D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -304,45 +328,22 @@
 			};
 			name = Release;
 		};
-		1AF3FF4A1887FE5100343D40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CONFIGURATION_BUILD_DIR = ../../NTFrameworks/lib/mac;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		1AF3FF4B1887FE5100343D40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CONFIGURATION_BUILD_DIR = ../../NTFrameworks/lib/mac;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1AC39A2A199CAE4500BFEE0F /* Build configuration list for PBXNativeTarget "NTFoundationFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC39A2B199CAE4500BFEE0F /* Debug */,
+				1AC39A2C199CAE4500BFEE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1AF3FF401887FE5100343D40 /* Build configuration list for PBXProject "NTFoundationFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AF3FF471887FE5100343D40 /* Debug */,
 				1AF3FF481887FE5100343D40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1AF3FF491887FE5100343D40 /* Build configuration list for PBXNativeTarget "NTFoundationFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1AF3FF4A1887FE5100343D40 /* Debug */,
-				1AF3FF4B1887FE5100343D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
