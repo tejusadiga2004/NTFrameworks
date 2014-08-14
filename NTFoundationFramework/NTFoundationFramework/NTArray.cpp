@@ -24,7 +24,7 @@
 NTArray::NTArray (NTObject* inObject1,...)
 : _internal(nullptr)
 {
-    va_list list = nullptr;
+    va_list list;
     if (inObject1 != nullptr) {
         va_start(list, inObject1);
     }

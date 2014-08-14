@@ -80,7 +80,7 @@ public:
     NTInteger Seek(NTInteger inOffset, NTFileSeekOrigin inSeekOrigin)
     {
 		int initial = (int)_file->tellg();
-        _file->seekg(inOffset, inSeekOrigin);
+        _file->seekg(inOffset, (std::basic_fstream<char, std::char_traits<char> >::seek_dir)inSeekOrigin);
 		int final = (int)_file->tellg();
         return final - initial;
     }

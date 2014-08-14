@@ -82,7 +82,7 @@ bool NTString::IsEqualToString (NTString* inString)
 
 NTString* NTString::SubString (NTRange inRange)
 {
-    char* substring = _strdup(data->_string);
+    char* substring = strdup(data->_string);
     memset(substring, 0, data->_length);
     strncpy(substring, data->_string + inRange.location, inRange.length);
                              
@@ -105,7 +105,7 @@ NTRange NTString::SearchString (NTString* inString)
 
 const char* NTString::UTF16String() const
 {
-	return (const char*)_wcsdup(data->string.c_str());
+	return (const char*)wcsdup(data->string.c_str());
 }
 
 const char* NTString::UTF8String () const
@@ -117,7 +117,7 @@ const char* NTString::UTF8String () const
         utf8String += (char)wideCahr;
     }
 
-	return _strdup(utf8String.c_str());
+	return strdup(utf8String.c_str());
 }
 
 int NTString::Length () const

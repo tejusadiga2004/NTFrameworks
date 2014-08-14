@@ -7,76 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A3121E4189A216F008AAC28 /* NTFileOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3121E2189A216F008AAC28 /* NTFileOutputStream.h */; };
-		1A3121E6189A2305008AAC28 /* NTFileOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A3121E1189A216F008AAC28 /* NTFileOutputStream.cpp */; };
-		1A4D8A291898CB05000C86D9 /* NTStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4D8A271898CB05000C86D9 /* NTStream.h */; };
-		1A4D8A2C1898D977000C86D9 /* NTInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D8A2A1898D977000C86D9 /* NTInputStream.cpp */; };
-		1A4D8A2D1898D977000C86D9 /* NTInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4D8A2B1898D977000C86D9 /* NTInputStream.h */; };
-		1A4D8A301898DF42000C86D9 /* NTOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D8A2E1898DF42000C86D9 /* NTOutputStream.cpp */; };
-		1A4D8A311898DF42000C86D9 /* NTOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4D8A2F1898DF42000C86D9 /* NTOutputStream.h */; };
-		1A4D8A341898E9C8000C86D9 /* NTFileInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D8A321898E9C8000C86D9 /* NTFileInputStream.cpp */; };
-		1A4D8A351898E9C8000C86D9 /* NTFileInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4D8A331898E9C8000C86D9 /* NTFileInputStream.h */; };
-		1A96B20418923CF900054710 /* NTNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A96B20218923CF900054710 /* NTNumber.cpp */; };
-		1A96B20518923CF900054710 /* NTNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A96B20318923CF900054710 /* NTNumber.h */; };
-		1AB4BEE41890E46D009EBAB7 /* NTAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEC71890E369009EBAB7 /* NTAllocator.cpp */; };
-		1AB4BEE51890E46D009EBAB7 /* NTArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEC91890E369009EBAB7 /* NTArray.cpp */; };
-		1AB4BEE61890E46D009EBAB7 /* NTBackgroundTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BECC1890E369009EBAB7 /* NTBackgroundTask.cpp */; };
-		1AB4BEE71890E46D009EBAB7 /* NTCommandQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BECE1890E369009EBAB7 /* NTCommandQueue.cpp */; };
-		1AB4BEE81890E46D009EBAB7 /* NTData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BED01890E369009EBAB7 /* NTData.cpp */; };
-		1AB4BEE91890E46D009EBAB7 /* NTDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BED21890E369009EBAB7 /* NTDictionary.cpp */; };
-		1AB4BEEA1890E46D009EBAB7 /* NTLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BED61890E369009EBAB7 /* NTLinkedList.cpp */; };
-		1AB4BEEB1890E46D009EBAB7 /* NTMutableArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BED81890E369009EBAB7 /* NTMutableArray.cpp */; };
-		1AB4BEEC1890E46D009EBAB7 /* NTMutableDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEDA1890E369009EBAB7 /* NTMutableDictionary.cpp */; };
-		1AB4BEED1890E46D009EBAB7 /* NTObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEDC1890E369009EBAB7 /* NTObject.cpp */; };
-		1AB4BEEE1890E46D009EBAB7 /* NTQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEDE1890E369009EBAB7 /* NTQueue.cpp */; };
-		1AB4BEEF1890E46D009EBAB7 /* NTString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEE01890E369009EBAB7 /* NTString.cpp */; };
-		1AB4BEF01890E46D009EBAB7 /* NTTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4BEE21890E369009EBAB7 /* NTTimer.cpp */; };
-		9CC5E1B518D2D27400DB0C80 /* NTFileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC5E1B418D2D27400DB0C80 /* NTFileStream.h */; };
+		1AC39A16199CAA9600BFEE0F /* NTAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399ED199CA67400BFEE0F /* NTAllocator.cpp */; };
+		1AC39A17199CAA9900BFEE0F /* NTArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399EF199CA67400BFEE0F /* NTArray.cpp */; };
+		1AC39A18199CAA9B00BFEE0F /* NTBackgroundTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F2199CA67400BFEE0F /* NTBackgroundTask.cpp */; };
+		1AC39A19199CAA9D00BFEE0F /* NTCommandQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F4199CA67400BFEE0F /* NTCommandQueue.cpp */; };
+		1AC39A1A199CAAA000BFEE0F /* NTData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F6199CA67400BFEE0F /* NTData.cpp */; };
+		1AC39A1B199CAAA100BFEE0F /* NTDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F8199CA67400BFEE0F /* NTDictionary.cpp */; };
+		1AC39A1C199CAAA400BFEE0F /* NTFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399FB199CA67400BFEE0F /* NTFile.cpp */; };
+		1AC39A1D199CAAA800BFEE0F /* NTLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A03199CA67400BFEE0F /* NTLinkedList.cpp */; };
+		1AC39A1E199CAAAB00BFEE0F /* NTMutableArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A05199CA67400BFEE0F /* NTMutableArray.cpp */; };
+		1AC39A1F199CAAAD00BFEE0F /* NTMutableDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A07199CA67400BFEE0F /* NTMutableDictionary.cpp */; };
+		1AC39A20199CAAAF00BFEE0F /* NTNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A09199CA67400BFEE0F /* NTNumber.cpp */; };
+		1AC39A21199CAAB200BFEE0F /* NTObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A0B199CA67400BFEE0F /* NTObject.cpp */; };
+		1AC39A22199CAAB500BFEE0F /* NTQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A0F199CA67400BFEE0F /* NTQueue.cpp */; };
+		1AC39A23199CAAB700BFEE0F /* NTString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A12199CA67400BFEE0F /* NTString.cpp */; };
+		1AC39A24199CAABA00BFEE0F /* NTTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC39A14199CA67400BFEE0F /* NTTimer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A3121E1189A216F008AAC28 /* NTFileOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTFileOutputStream.cpp; sourceTree = "<group>"; };
-		1A3121E2189A216F008AAC28 /* NTFileOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFileOutputStream.h; sourceTree = "<group>"; };
-		1A4D8A271898CB05000C86D9 /* NTStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTStream.h; sourceTree = "<group>"; };
-		1A4D8A2A1898D977000C86D9 /* NTInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTInputStream.cpp; sourceTree = "<group>"; };
-		1A4D8A2B1898D977000C86D9 /* NTInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTInputStream.h; sourceTree = "<group>"; };
-		1A4D8A2E1898DF42000C86D9 /* NTOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTOutputStream.cpp; sourceTree = "<group>"; };
-		1A4D8A2F1898DF42000C86D9 /* NTOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTOutputStream.h; sourceTree = "<group>"; };
-		1A4D8A321898E9C8000C86D9 /* NTFileInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTFileInputStream.cpp; sourceTree = "<group>"; };
-		1A4D8A331898E9C8000C86D9 /* NTFileInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFileInputStream.h; sourceTree = "<group>"; };
-		1A96B20218923CF900054710 /* NTNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTNumber.cpp; sourceTree = "<group>"; };
-		1A96B20318923CF900054710 /* NTNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNumber.h; sourceTree = "<group>"; };
-		1AB4BEC71890E369009EBAB7 /* NTAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTAllocator.cpp; sourceTree = "<group>"; };
-		1AB4BEC81890E369009EBAB7 /* NTAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAllocator.h; sourceTree = "<group>"; };
-		1AB4BEC91890E369009EBAB7 /* NTArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTArray.cpp; sourceTree = "<group>"; };
-		1AB4BECA1890E369009EBAB7 /* NTArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTArray.h; sourceTree = "<group>"; };
-		1AB4BECB1890E369009EBAB7 /* NTArrayInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTArrayInternal.h; sourceTree = "<group>"; };
-		1AB4BECC1890E369009EBAB7 /* NTBackgroundTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTBackgroundTask.cpp; sourceTree = "<group>"; };
-		1AB4BECD1890E369009EBAB7 /* NTBackgroundTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTBackgroundTask.h; sourceTree = "<group>"; };
-		1AB4BECE1890E369009EBAB7 /* NTCommandQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTCommandQueue.cpp; sourceTree = "<group>"; };
-		1AB4BECF1890E369009EBAB7 /* NTCommandQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTCommandQueue.h; sourceTree = "<group>"; };
-		1AB4BED01890E369009EBAB7 /* NTData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTData.cpp; sourceTree = "<group>"; };
-		1AB4BED11890E369009EBAB7 /* NTData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTData.h; sourceTree = "<group>"; };
-		1AB4BED21890E369009EBAB7 /* NTDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTDictionary.cpp; sourceTree = "<group>"; };
-		1AB4BED31890E369009EBAB7 /* NTDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTDictionary.h; sourceTree = "<group>"; };
-		1AB4BED41890E369009EBAB7 /* NTDictionaryInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTDictionaryInternal.h; sourceTree = "<group>"; };
-		1AB4BED51890E369009EBAB7 /* NTFoundationFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTFoundationFramework.h; sourceTree = "<group>"; };
-		1AB4BED61890E369009EBAB7 /* NTLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTLinkedList.cpp; sourceTree = "<group>"; };
-		1AB4BED71890E369009EBAB7 /* NTLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTLinkedList.h; sourceTree = "<group>"; };
-		1AB4BED81890E369009EBAB7 /* NTMutableArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTMutableArray.cpp; sourceTree = "<group>"; };
-		1AB4BED91890E369009EBAB7 /* NTMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMutableArray.h; sourceTree = "<group>"; };
-		1AB4BEDA1890E369009EBAB7 /* NTMutableDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTMutableDictionary.cpp; sourceTree = "<group>"; };
-		1AB4BEDB1890E369009EBAB7 /* NTMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMutableDictionary.h; sourceTree = "<group>"; };
-		1AB4BEDC1890E369009EBAB7 /* NTObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTObject.cpp; sourceTree = "<group>"; };
-		1AB4BEDD1890E369009EBAB7 /* NTObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTObject.h; sourceTree = "<group>"; };
-		1AB4BEDE1890E369009EBAB7 /* NTQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTQueue.cpp; sourceTree = "<group>"; };
-		1AB4BEDF1890E369009EBAB7 /* NTQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTQueue.h; sourceTree = "<group>"; };
-		1AB4BEE01890E369009EBAB7 /* NTString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTString.cpp; sourceTree = "<group>"; };
-		1AB4BEE11890E369009EBAB7 /* NTString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTString.h; sourceTree = "<group>"; };
-		1AB4BEE21890E369009EBAB7 /* NTTimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTTimer.cpp; sourceTree = "<group>"; };
-		1AB4BEE31890E369009EBAB7 /* NTTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTTimer.h; sourceTree = "<group>"; };
+		1AC399ED199CA67400BFEE0F /* NTAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTAllocator.cpp; sourceTree = "<group>"; };
+		1AC399EE199CA67400BFEE0F /* NTAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAllocator.h; sourceTree = "<group>"; };
+		1AC399EF199CA67400BFEE0F /* NTArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTArray.cpp; sourceTree = "<group>"; };
+		1AC399F0199CA67400BFEE0F /* NTArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTArray.h; sourceTree = "<group>"; };
+		1AC399F1199CA67400BFEE0F /* NTArrayInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTArrayInternal.h; sourceTree = "<group>"; };
+		1AC399F2199CA67400BFEE0F /* NTBackgroundTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTBackgroundTask.cpp; sourceTree = "<group>"; };
+		1AC399F3199CA67400BFEE0F /* NTBackgroundTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTBackgroundTask.h; sourceTree = "<group>"; };
+		1AC399F4199CA67400BFEE0F /* NTCommandQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTCommandQueue.cpp; sourceTree = "<group>"; };
+		1AC399F5199CA67400BFEE0F /* NTCommandQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTCommandQueue.h; sourceTree = "<group>"; };
+		1AC399F6199CA67400BFEE0F /* NTData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTData.cpp; sourceTree = "<group>"; };
+		1AC399F7199CA67400BFEE0F /* NTData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTData.h; sourceTree = "<group>"; };
+		1AC399F8199CA67400BFEE0F /* NTDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTDictionary.cpp; sourceTree = "<group>"; };
+		1AC399F9199CA67400BFEE0F /* NTDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTDictionary.h; sourceTree = "<group>"; };
+		1AC399FA199CA67400BFEE0F /* NTDictionaryInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTDictionaryInternal.h; sourceTree = "<group>"; };
+		1AC399FB199CA67400BFEE0F /* NTFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTFile.cpp; sourceTree = "<group>"; };
+		1AC399FC199CA67400BFEE0F /* NTFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTFile.h; sourceTree = "<group>"; };
+		1AC399FD199CA67400BFEE0F /* NTFoundationFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTFoundationFramework.h; sourceTree = "<group>"; };
+		1AC39A01199CA67400BFEE0F /* NTInputStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTInputStream.h; sourceTree = "<group>"; };
+		1AC39A02199CA67400BFEE0F /* NTLibraryDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTLibraryDefines.h; sourceTree = "<group>"; };
+		1AC39A03199CA67400BFEE0F /* NTLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTLinkedList.cpp; sourceTree = "<group>"; };
+		1AC39A04199CA67400BFEE0F /* NTLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTLinkedList.h; sourceTree = "<group>"; };
+		1AC39A05199CA67400BFEE0F /* NTMutableArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTMutableArray.cpp; sourceTree = "<group>"; };
+		1AC39A06199CA67400BFEE0F /* NTMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMutableArray.h; sourceTree = "<group>"; };
+		1AC39A07199CA67400BFEE0F /* NTMutableDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTMutableDictionary.cpp; sourceTree = "<group>"; };
+		1AC39A08199CA67400BFEE0F /* NTMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMutableDictionary.h; sourceTree = "<group>"; };
+		1AC39A09199CA67400BFEE0F /* NTNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTNumber.cpp; sourceTree = "<group>"; };
+		1AC39A0A199CA67400BFEE0F /* NTNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTNumber.h; sourceTree = "<group>"; };
+		1AC39A0B199CA67400BFEE0F /* NTObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTObject.cpp; sourceTree = "<group>"; };
+		1AC39A0C199CA67400BFEE0F /* NTObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTObject.h; sourceTree = "<group>"; };
+		1AC39A0E199CA67400BFEE0F /* NTOutputStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTOutputStream.h; sourceTree = "<group>"; };
+		1AC39A0F199CA67400BFEE0F /* NTQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTQueue.cpp; sourceTree = "<group>"; };
+		1AC39A10199CA67400BFEE0F /* NTQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTQueue.h; sourceTree = "<group>"; };
+		1AC39A11199CA67400BFEE0F /* NTStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTStream.h; sourceTree = "<group>"; };
+		1AC39A12199CA67400BFEE0F /* NTString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTString.cpp; sourceTree = "<group>"; };
+		1AC39A13199CA67400BFEE0F /* NTString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTString.h; sourceTree = "<group>"; };
+		1AC39A14199CA67400BFEE0F /* NTTimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTTimer.cpp; sourceTree = "<group>"; };
+		1AC39A15199CA67400BFEE0F /* NTTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTTimer.h; sourceTree = "<group>"; };
 		1AF3FF451887FE5100343D40 /* libNTFoundationFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTFoundationFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CC5E1B418D2D27400DB0C80 /* NTFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFileStream.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,59 +76,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AB4BEC61890E369009EBAB7 /* Source */ = {
+		1AC399EC199CA67400BFEE0F /* NTFoundationFramework */ = {
 			isa = PBXGroup;
 			children = (
-				9CC5E1B418D2D27400DB0C80 /* NTFileStream.h */,
-				1AB4BEC71890E369009EBAB7 /* NTAllocator.cpp */,
-				1AB4BEC81890E369009EBAB7 /* NTAllocator.h */,
-				1AB4BEC91890E369009EBAB7 /* NTArray.cpp */,
-				1AB4BECA1890E369009EBAB7 /* NTArray.h */,
-				1AB4BECB1890E369009EBAB7 /* NTArrayInternal.h */,
-				1AB4BECC1890E369009EBAB7 /* NTBackgroundTask.cpp */,
-				1AB4BECD1890E369009EBAB7 /* NTBackgroundTask.h */,
-				1AB4BECE1890E369009EBAB7 /* NTCommandQueue.cpp */,
-				1AB4BECF1890E369009EBAB7 /* NTCommandQueue.h */,
-				1AB4BED01890E369009EBAB7 /* NTData.cpp */,
-				1AB4BED11890E369009EBAB7 /* NTData.h */,
-				1AB4BED21890E369009EBAB7 /* NTDictionary.cpp */,
-				1AB4BED31890E369009EBAB7 /* NTDictionary.h */,
-				1AB4BED41890E369009EBAB7 /* NTDictionaryInternal.h */,
-				1AB4BED51890E369009EBAB7 /* NTFoundationFramework.h */,
-				1AB4BED61890E369009EBAB7 /* NTLinkedList.cpp */,
-				1AB4BED71890E369009EBAB7 /* NTLinkedList.h */,
-				1AB4BED81890E369009EBAB7 /* NTMutableArray.cpp */,
-				1AB4BED91890E369009EBAB7 /* NTMutableArray.h */,
-				1AB4BEDA1890E369009EBAB7 /* NTMutableDictionary.cpp */,
-				1AB4BEDB1890E369009EBAB7 /* NTMutableDictionary.h */,
-				1AB4BEDC1890E369009EBAB7 /* NTObject.cpp */,
-				1AB4BEDD1890E369009EBAB7 /* NTObject.h */,
-				1AB4BEDE1890E369009EBAB7 /* NTQueue.cpp */,
-				1AB4BEDF1890E369009EBAB7 /* NTQueue.h */,
-				1AB4BEE01890E369009EBAB7 /* NTString.cpp */,
-				1AB4BEE11890E369009EBAB7 /* NTString.h */,
-				1AB4BEE21890E369009EBAB7 /* NTTimer.cpp */,
-				1AB4BEE31890E369009EBAB7 /* NTTimer.h */,
-				1A96B20218923CF900054710 /* NTNumber.cpp */,
-				1A96B20318923CF900054710 /* NTNumber.h */,
-				1A4D8A271898CB05000C86D9 /* NTStream.h */,
-				1A4D8A2A1898D977000C86D9 /* NTInputStream.cpp */,
-				1A4D8A2B1898D977000C86D9 /* NTInputStream.h */,
-				1A4D8A2E1898DF42000C86D9 /* NTOutputStream.cpp */,
-				1A4D8A2F1898DF42000C86D9 /* NTOutputStream.h */,
-				1A4D8A321898E9C8000C86D9 /* NTFileInputStream.cpp */,
-				1A4D8A331898E9C8000C86D9 /* NTFileInputStream.h */,
-				1A3121E1189A216F008AAC28 /* NTFileOutputStream.cpp */,
-				1A3121E2189A216F008AAC28 /* NTFileOutputStream.h */,
+				1AC399ED199CA67400BFEE0F /* NTAllocator.cpp */,
+				1AC399EE199CA67400BFEE0F /* NTAllocator.h */,
+				1AC399EF199CA67400BFEE0F /* NTArray.cpp */,
+				1AC399F0199CA67400BFEE0F /* NTArray.h */,
+				1AC399F1199CA67400BFEE0F /* NTArrayInternal.h */,
+				1AC399F2199CA67400BFEE0F /* NTBackgroundTask.cpp */,
+				1AC399F3199CA67400BFEE0F /* NTBackgroundTask.h */,
+				1AC399F4199CA67400BFEE0F /* NTCommandQueue.cpp */,
+				1AC399F5199CA67400BFEE0F /* NTCommandQueue.h */,
+				1AC399F6199CA67400BFEE0F /* NTData.cpp */,
+				1AC399F7199CA67400BFEE0F /* NTData.h */,
+				1AC399F8199CA67400BFEE0F /* NTDictionary.cpp */,
+				1AC399F9199CA67400BFEE0F /* NTDictionary.h */,
+				1AC399FA199CA67400BFEE0F /* NTDictionaryInternal.h */,
+				1AC399FB199CA67400BFEE0F /* NTFile.cpp */,
+				1AC399FC199CA67400BFEE0F /* NTFile.h */,
+				1AC399FD199CA67400BFEE0F /* NTFoundationFramework.h */,
+				1AC39A01199CA67400BFEE0F /* NTInputStream.h */,
+				1AC39A02199CA67400BFEE0F /* NTLibraryDefines.h */,
+				1AC39A03199CA67400BFEE0F /* NTLinkedList.cpp */,
+				1AC39A04199CA67400BFEE0F /* NTLinkedList.h */,
+				1AC39A05199CA67400BFEE0F /* NTMutableArray.cpp */,
+				1AC39A06199CA67400BFEE0F /* NTMutableArray.h */,
+				1AC39A07199CA67400BFEE0F /* NTMutableDictionary.cpp */,
+				1AC39A08199CA67400BFEE0F /* NTMutableDictionary.h */,
+				1AC39A09199CA67400BFEE0F /* NTNumber.cpp */,
+				1AC39A0A199CA67400BFEE0F /* NTNumber.h */,
+				1AC39A0B199CA67400BFEE0F /* NTObject.cpp */,
+				1AC39A0C199CA67400BFEE0F /* NTObject.h */,
+				1AC39A0E199CA67400BFEE0F /* NTOutputStream.h */,
+				1AC39A0F199CA67400BFEE0F /* NTQueue.cpp */,
+				1AC39A10199CA67400BFEE0F /* NTQueue.h */,
+				1AC39A11199CA67400BFEE0F /* NTStream.h */,
+				1AC39A12199CA67400BFEE0F /* NTString.cpp */,
+				1AC39A13199CA67400BFEE0F /* NTString.h */,
+				1AC39A14199CA67400BFEE0F /* NTTimer.cpp */,
+				1AC39A15199CA67400BFEE0F /* NTTimer.h */,
 			);
-			name = Source;
-			path = ../Source;
+			name = NTFoundationFramework;
+			path = ../NTFoundationFramework;
 			sourceTree = "<group>";
 		};
 		1AF3FF3C1887FE5100343D40 = {
 			isa = PBXGroup;
 			children = (
-				1AB4BEC61890E369009EBAB7 /* Source */,
+				1AC399EC199CA67400BFEE0F /* NTFoundationFramework */,
 				1AF3FF461887FE5100343D40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,13 +144,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4D8A291898CB05000C86D9 /* NTStream.h in Headers */,
-				1A4D8A311898DF42000C86D9 /* NTOutputStream.h in Headers */,
-				9CC5E1B518D2D27400DB0C80 /* NTFileStream.h in Headers */,
-				1A96B20518923CF900054710 /* NTNumber.h in Headers */,
-				1A4D8A351898E9C8000C86D9 /* NTFileInputStream.h in Headers */,
-				1A4D8A2D1898D977000C86D9 /* NTInputStream.h in Headers */,
-				1A3121E4189A216F008AAC28 /* NTFileOutputStream.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "rm -Rf ../NTFoundationFramework/*.h\ncd ../Source\ncp -f NTAllocator.h ../NTFoundationFramework\ncp -f NTObject.h ../NTFoundationFramework\ncp -f NTDictionary.h ../NTFoundationFramework\ncp -f NTMutableDictionary.h ../NTFoundationFramework\ncp -f NTArray.h ../NTFoundationFramework\ncp -f NTMutableArray.h ../NTFoundationFramework\ncp -f NTQueue.h ../NTFoundationFramework\ncp -f NTString.h ../NTFoundationFramework\ncp -f NTData.h ../NTFoundationFramework\ncp -f NTBackgroundTask.h ../NTFoundationFramework\ncp -f NTTimer.h ../NTFoundationFramework\ncp -f NTCommandQueue.h ../NTFoundationFramework\ncp -f NTNumber.h ../NTFoundationFramework\ncp -f NTFoundationFramework.h ../NTFoundationFramework\ncp -f NTStream.h ../NTFoundationFramework\ncp -f NTFileStream.h ../NTFoundationFramework\ncp -f NTInputStream.h ../NTFoundationFramework\ncp -f NTOutputStream.h ../NTFoundationFramework\ncp -f NTFileInputStream.h ../NTFoundationFramework\ncp -f NTFileOutputStream.h ../NTFoundationFramework";
+			shellScript = "rm -Rf ../../NTFrameworks/NTFoundationFramework/*.h\ncd ../NTFoundationFramework\ncp -f NTLibraryDefines.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTAllocator.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTObject.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTDictionary.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTMutableDictionary.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTArray.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTMutableArray.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTQueue.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTString.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTData.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTBackgroundTask.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTTimer.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTCommandQueue.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTNumber.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTFoundationFramework.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTInputStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTOutputStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTFile.h ../../NTFrameworks/NTFoundationFramework";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -240,24 +215,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3121E6189A2305008AAC28 /* NTFileOutputStream.cpp in Sources */,
-				1A96B20418923CF900054710 /* NTNumber.cpp in Sources */,
-				1AB4BEE41890E46D009EBAB7 /* NTAllocator.cpp in Sources */,
-				1A4D8A301898DF42000C86D9 /* NTOutputStream.cpp in Sources */,
-				1AB4BEE91890E46D009EBAB7 /* NTDictionary.cpp in Sources */,
-				1AB4BEED1890E46D009EBAB7 /* NTObject.cpp in Sources */,
-				1AB4BEE71890E46D009EBAB7 /* NTCommandQueue.cpp in Sources */,
-				1AB4BEE51890E46D009EBAB7 /* NTArray.cpp in Sources */,
-				1AB4BEE61890E46D009EBAB7 /* NTBackgroundTask.cpp in Sources */,
-				1A4D8A2C1898D977000C86D9 /* NTInputStream.cpp in Sources */,
-				1AB4BEEF1890E46D009EBAB7 /* NTString.cpp in Sources */,
-				1A4D8A341898E9C8000C86D9 /* NTFileInputStream.cpp in Sources */,
-				1AB4BEE81890E46D009EBAB7 /* NTData.cpp in Sources */,
-				1AB4BEEC1890E46D009EBAB7 /* NTMutableDictionary.cpp in Sources */,
-				1AB4BEF01890E46D009EBAB7 /* NTTimer.cpp in Sources */,
-				1AB4BEEE1890E46D009EBAB7 /* NTQueue.cpp in Sources */,
-				1AB4BEEB1890E46D009EBAB7 /* NTMutableArray.cpp in Sources */,
-				1AB4BEEA1890E46D009EBAB7 /* NTLinkedList.cpp in Sources */,
+				1AC39A1F199CAAAD00BFEE0F /* NTMutableDictionary.cpp in Sources */,
+				1AC39A22199CAAB500BFEE0F /* NTQueue.cpp in Sources */,
+				1AC39A16199CAA9600BFEE0F /* NTAllocator.cpp in Sources */,
+				1AC39A1B199CAAA100BFEE0F /* NTDictionary.cpp in Sources */,
+				1AC39A19199CAA9D00BFEE0F /* NTCommandQueue.cpp in Sources */,
+				1AC39A17199CAA9900BFEE0F /* NTArray.cpp in Sources */,
+				1AC39A20199CAAAF00BFEE0F /* NTNumber.cpp in Sources */,
+				1AC39A18199CAA9B00BFEE0F /* NTBackgroundTask.cpp in Sources */,
+				1AC39A1E199CAAAB00BFEE0F /* NTMutableArray.cpp in Sources */,
+				1AC39A1C199CAAA400BFEE0F /* NTFile.cpp in Sources */,
+				1AC39A23199CAAB700BFEE0F /* NTString.cpp in Sources */,
+				1AC39A1D199CAAA800BFEE0F /* NTLinkedList.cpp in Sources */,
+				1AC39A21199CAAB200BFEE0F /* NTObject.cpp in Sources */,
+				1AC39A24199CAABA00BFEE0F /* NTTimer.cpp in Sources */,
+				1AC39A1A199CAAA000BFEE0F /* NTData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +309,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CONFIGURATION_BUILD_DIR = "../$(PROJECT_NAME)/lib/mac";
+				CONFIGURATION_BUILD_DIR = ../../NTFrameworks/lib/mac;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +320,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CONFIGURATION_BUILD_DIR = "../$(PROJECT_NAME)/lib/mac";
+				CONFIGURATION_BUILD_DIR = ../../NTFrameworks/lib/mac;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
