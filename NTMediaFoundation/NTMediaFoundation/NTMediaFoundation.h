@@ -12,11 +12,5 @@
 #include "NTFormatDescription.h"
 #include "NTMediaBuffer.h"
 #include "NTMediaSample.h"
-#include "NTFilter.h"
-#include "NTSourceFilter.h"
-#include "NTRenderFilter.h"
-#include "NTTransformFilter.h"
-#include "NTMediaControl.h"
-#include "NTFilterGraph.h"
 
 #endif

@@ -6,3 +6,11 @@ NTFoundationFramework/mac/NTFoundationFramework.xcodeproj/project.xcworkspace/co
 *.xcscheme
 
 NTFoundationFramework/mac/NTFoundationFramework.xcodeproj/xcuserdata/tejusadiga.xcuserdatad/xcschemes/xcschememanagement.plist
+
+*.xcbkptlist
+
+*.xcuserstate
+
+*.xcscheme
+
+*.xcuserstate

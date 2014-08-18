@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6B2A4119A219D30059E8F3 /* NTNotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B2A3F19A219D30059E8F3 /* NTNotificationCenter.cpp */; };
+		1A6B2A4219A219D30059E8F3 /* NTNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6B2A4019A219D30059E8F3 /* NTNotificationCenter.h */; };
+		1A6B2A4519A21E690059E8F3 /* NTNotificationCenterInternal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B2A4319A21E690059E8F3 /* NTNotificationCenterInternal.cpp */; };
+		1A6B2A4619A21E690059E8F3 /* NTNotificationCenterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6B2A4419A21E690059E8F3 /* NTNotificationCenterInternal.h */; };
 		1AC39A2D199CAE4F00BFEE0F /* NTAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399ED199CA67400BFEE0F /* NTAllocator.cpp */; };
 		1AC39A2E199CAE6400BFEE0F /* NTArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399EF199CA67400BFEE0F /* NTArray.cpp */; };
 		1AC39A2F199CAE6400BFEE0F /* NTBackgroundTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC399F2199CA67400BFEE0F /* NTBackgroundTask.cpp */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A6B2A3F19A219D30059E8F3 /* NTNotificationCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTNotificationCenter.cpp; sourceTree = "<group>"; };
+		1A6B2A4019A219D30059E8F3 /* NTNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNotificationCenter.h; sourceTree = "<group>"; };
+		1A6B2A4319A21E690059E8F3 /* NTNotificationCenterInternal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTNotificationCenterInternal.cpp; sourceTree = "<group>"; };
+		1A6B2A4419A21E690059E8F3 /* NTNotificationCenterInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNotificationCenterInternal.h; sourceTree = "<group>"; };
 		1AC399ED199CA67400BFEE0F /* NTAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTAllocator.cpp; sourceTree = "<group>"; };
 		1AC399EE199CA67400BFEE0F /* NTAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAllocator.h; sourceTree = "<group>"; };
 		1AC399EF199CA67400BFEE0F /* NTArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTArray.cpp; sourceTree = "<group>"; };
@@ -116,6 +124,10 @@
 				1AC39A13199CA67400BFEE0F /* NTString.h */,
 				1AC39A14199CA67400BFEE0F /* NTTimer.cpp */,
 				1AC39A15199CA67400BFEE0F /* NTTimer.h */,
+				1A6B2A3F19A219D30059E8F3 /* NTNotificationCenter.cpp */,
+				1A6B2A4019A219D30059E8F3 /* NTNotificationCenter.h */,
+				1A6B2A4319A21E690059E8F3 /* NTNotificationCenterInternal.cpp */,
+				1A6B2A4419A21E690059E8F3 /* NTNotificationCenterInternal.h */,
 			);
 			name = NTFoundationFramework;
 			path = ../NTFoundationFramework;
@@ -144,6 +156,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6B2A4219A219D30059E8F3 /* NTNotificationCenter.h in Headers */,
+				1A6B2A4619A21E690059E8F3 /* NTNotificationCenterInternal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "rm -Rf ../../NTFrameworks/NTFoundationFramework/*.h\ncd ../NTFoundationFramework\ncp -f NTLibraryDefines.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTAllocator.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTObject.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTDictionary.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTMutableDictionary.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTArray.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTMutableArray.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTQueue.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTString.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTData.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTBackgroundTask.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTTimer.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTCommandQueue.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTNumber.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTFoundationFramework.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTInputStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTOutputStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTFile.h ../../NTFrameworks/NTFoundationFramework";
+			shellScript = "rm -Rf ../../NTFrameworks/NTFoundationFramework/*.h\ncd ../NTFoundationFramework\ncp -f NTLibraryDefines.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTAllocator.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTObject.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTDictionary.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTMutableDictionary.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTArray.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTMutableArray.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTQueue.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTString.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTData.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTBackgroundTask.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTTimer.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTCommandQueue.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTNumber.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTFoundationFramework.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTInputStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTOutputStream.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTFile.h ../../NTFrameworks/NTFoundationFramework\ncp -f NTNotificationCenter.h ../../NTFrameworks/NTFoundationFramework";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -218,6 +232,7 @@
 				1AC39A36199CAE6400BFEE0F /* NTMutableDictionary.cpp in Sources */,
 				1AC39A39199CAE6400BFEE0F /* NTQueue.cpp in Sources */,
 				1AC39A2D199CAE4F00BFEE0F /* NTAllocator.cpp in Sources */,
+				1A6B2A4119A219D30059E8F3 /* NTNotificationCenter.cpp in Sources */,
 				1AC39A32199CAE6400BFEE0F /* NTDictionary.cpp in Sources */,
 				1AC39A30199CAE6400BFEE0F /* NTCommandQueue.cpp in Sources */,
 				1AC39A2E199CAE6400BFEE0F /* NTArray.cpp in Sources */,
@@ -227,6 +242,7 @@
 				1AC39A33199CAE6400BFEE0F /* NTFile.cpp in Sources */,
 				1AC39A3A199CAE6400BFEE0F /* NTString.cpp in Sources */,
 				1AC39A34199CAE6400BFEE0F /* NTLinkedList.cpp in Sources */,
+				1A6B2A4519A21E690059E8F3 /* NTNotificationCenterInternal.cpp in Sources */,
 				1AC39A38199CAE6400BFEE0F /* NTObject.cpp in Sources */,
 				1AC39A3B199CAE6400BFEE0F /* NTTimer.cpp in Sources */,
 				1AC39A31199CAE6400BFEE0F /* NTData.cpp in Sources */,
@@ -338,6 +354,7 @@
 				1AC39A2C199CAE4500BFEE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AF3FF401887FE5100343D40 /* Build configuration list for PBXProject "NTFoundationFramework" */ = {
 			isa = XCConfigurationList;
