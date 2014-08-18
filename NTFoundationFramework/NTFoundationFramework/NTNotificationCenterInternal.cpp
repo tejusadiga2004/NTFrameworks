@@ -3,7 +3,7 @@
 //  NTFoundationFramework
 //
 //  Created by Tejus Adiga on 18/08/14.
-//  Copyright (c) 2014 Robosoft. All rights reserved.
+//  Copyright (c) 2014 Entropy. All rights reserved.
 //
 
 #include "NTLibraryDefines.h"
