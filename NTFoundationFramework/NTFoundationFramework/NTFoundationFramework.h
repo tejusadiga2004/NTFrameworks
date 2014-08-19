@@ -31,5 +31,6 @@
 #include "NTInputStream.h"
 #include "NTOutputStream.h"
 #include "NTFile.h"
+#include "NTNotificationCenter.h"
 
 #endif
