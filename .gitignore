@@ -1,3 +1,7 @@
+*.opensdf
+
+*.suo
+
 *.sdf
 
 *.vcxproj
