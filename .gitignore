@@ -1,3 +1,6 @@
+*.sdf
+
+*.vcxproj
 
 NTFoundationFramework/mac/NTFoundationFramework.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 
